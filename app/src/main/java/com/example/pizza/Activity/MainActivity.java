@@ -70,12 +70,12 @@ public class MainActivity extends AppCompatActivity {
         recyclerViewCategotyList.setLayoutManager(linearLayoutManager);
 
         ArrayList<CategoryDomain> categoryList = new ArrayList<>();
-        categoryList.add(new CategoryDomain("Alejandro", "cat_1"));
-//        categoryList.add(new CategoryDomain("Pizza", "cat_1"));
-//        categoryList.add(new CategoryDomain("Burger", "cat_2"));
-//        categoryList.add(new CategoryDomain("Hotdog", "cat_3"));
-//        categoryList.add(new CategoryDomain("Drink", "cat_4"));
-//        categoryList.add(new CategoryDomain("Donut", "cat_5"));
+//        categoryList.add(new CategoryDomain("Alejandro", "cat_1"));
+        categoryList.add(new CategoryDomain("Pizza", "cat_1"));
+        categoryList.add(new CategoryDomain("Burger", "cat_2"));
+        categoryList.add(new CategoryDomain("Hotdog", "cat_3"));
+        categoryList.add(new CategoryDomain("Drink", "cat_4"));
+        categoryList.add(new CategoryDomain("Donut", "cat_5"));
 
 
         adapter = new CategoryAdapter(categoryList);

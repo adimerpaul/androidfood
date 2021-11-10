@@ -13,7 +13,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-//import com.example.pizza.Activity.ShowDetailActivity;
+import com.example.pizza.Activity.ShowDetailActivity;
 import com.example.pizza.Domain.FoodDomain;
 import com.example.pizza.R;
 
@@ -48,11 +48,11 @@ public class RecommendedAdapter extends RecyclerView.Adapter<RecommendedAdapter.
                 .load(drawableReourceId)
                 .into(holder.pic);
 
-//        holder.addBtn.setOnClickListener(v -> {
-//            Intent intent = new Intent(holder.itemView.getContext(), ShowDetailActivity.class);
-//            intent.putExtra("object", RecommendedDomains.get(position));
-//            holder.itemView.getContext().startActivity(intent);
-//        });
+        holder.addBtn.setOnClickListener(v -> {
+            Intent intent = new Intent(holder.itemView.getContext(), ShowDetailActivity.class);
+            intent.putExtra("object", RecommendedDomains.get(position));
+            holder.itemView.getContext().startActivity(intent);
+        });
 
     }
 
