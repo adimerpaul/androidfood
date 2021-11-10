@@ -15,17 +15,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/background_intro" />
+        app:srcCompat="@drawable/background_intro2" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="108dp"
-        android:text="Food Delivery App"
-        android:textColor="#3d33a8"
+        android:text="Carnaval de Oruro ACFO"
+        android:textColor="#fff"
         android:textStyle="bold"
-        android:textSize="40sp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -33,11 +33,11 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="420dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.4"
-        app:srcCompat="@drawable/logo"
+        app:srcCompat="@drawable/logo2"
         tools:layout_editor_absoluteX="0dp" />
 
     <TextView
@@ -45,10 +45,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Enjoy \nEating"
-        android:textSize="40sp"
+        android:text="Disfruta \nEl carnaval"
+        android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="#3d33a8"
+        android:textColor="#fff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView"
@@ -59,10 +59,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:textColor="#3d33a8"
+        android:textColor="#fff"
         android:textStyle="bold"
         android:textSize="20sp"
-        android:text="All the delicious food on your phone"
+        android:text="El carnaval de oruro en movil"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/textView2"
@@ -83,8 +83,8 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Get Started"
-            android:textColor="#ff5e00"
+            android:text="Ingresar"
+            android:textColor="#B71C1C"
             android:textSize="23sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"

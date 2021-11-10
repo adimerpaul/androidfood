@@ -60,7 +60,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintHorizontal_bias="1.0"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/titleTxt">
+                        >
 
                         <ImageView
                             android:id="@+id/plusCardBtn"
@@ -149,7 +149,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView93"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/star" />
@@ -201,7 +201,7 @@
                         android:orientation="horizontal">
 
                         <ImageView
-                            android:id="@+id/imageView9"
+                            android:id="@+id/imageView92"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:srcCompat="@drawable/flame" />
